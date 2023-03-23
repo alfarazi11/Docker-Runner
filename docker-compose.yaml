@@ -22,7 +22,7 @@ services:
       - firefox
     environment:
       - HUB_HOST=hub
-      - BROWSER=firefox
+      - BROWSER=chrome
       - MODULE=seleniumSuite.xml
     volumes:
       - ./output/search-result:/usr/share/alfarazi/test-output
